@@ -16,9 +16,10 @@ Based on the wonderful [Papirus](https://github.com/PapirusDevelopmentTeam/papir
 `# git clone https://github.com/Survolog/rospo-icon-theme.git /usr/share/icons/`
 
 ## Community
-ROSPO Design Studio
+
+* ROSPO Design Studio
 https://vk.com/rospodesign
-ROSPO
+* ROSPO
 https://vk.com/ro_spo
-ROSPO Newbie Mainteiners Of Rosa Linux
+* ROSPO Newbie Mainteiners Of Rosa Linux
 https://vk.com/rpmbuild
