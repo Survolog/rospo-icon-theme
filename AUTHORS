@@ -1,0 +1,40 @@
+Authors:
+
+	- Alexey Varfolomeev (https://github.com/varlesh)
+	The author of Papirus icon theme
+
+	- Sadrlimanov Ramil Rashitovich (https://github.com/chistota)
+	The author of Neru icon theme
+
+Maintainers:
+
+	- Grigorev Andrey Aleksandrovich
+	SVG optimization, scripting for rospo-icon-theme
+
+Contributors (sorted alphabetically):
+
+Original sources:
+
+	- Paper Icon Theme (https://github.com/snwh/paper-icon-theme)
+	Author: Sam Hewitt (https://samuelhewitt.com)
+	License: CC-BY-SA-4.0
+
+	- Numix icon theme (https://github.com/numixproject/numix-icon-theme)
+	Author: Numix Project (http://numixproject.org)
+	License: GPL-3.0
+
+	- Numix Core (https://github.com/numixproject/numix-core)
+	Author: Numix Project (http://numixproject.org)
+	License: GPL-3.0
+
+	- elementary+ Icon Theme (https://github.com/mank319/elementaryPlus)
+	Author: elementaryPlus contributors (https://github.com/mank319/elementaryPlus)
+	License: GPL-3.0
+
+	- Neru-classic (https://github.com/chistota/neru-icon-classic-theme)
+	- Author: Sadrlimanov Ramil Rashitovich
+	License: LGPL-3.0
+
+	- Neru-newyear (https://github.com/chistota/neru-icon-newyear-theme)
+	- Author: Sadrlimanov Ramil Rashitovich
+	License: LGPL-3.0
