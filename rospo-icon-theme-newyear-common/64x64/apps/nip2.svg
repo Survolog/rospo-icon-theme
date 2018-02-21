@@ -1,1 +1,17 @@
-../../../rospo-icon-theme-newyear-common/16x16/apps/nip2.svg
+<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><linearGradient id="a" gradientTransform="matrix(2.54182 0 0 2.58531 -153.47 -277.37)" gradientUnits="userSpaceOnUse" x1="67.894" x2="67.854" y1="108.69" y2="113.11"><stop offset="0" stop-color="#f9f9f9"/><stop offset="1" stop-color="#999"/></linearGradient><g fill-rule="evenodd" transform="translate(0 -.16)"><rect fill="#4966ff" height="28.2" rx="5.575" width="28.2" x="1.898" y="1.898"/><path d="m30.1 20.17c-.346.256-1.066.805-2.396 1.611-.805.488-1.691.976-2.537 1.342s-1.651.611-2.295.611-1.45-.271-2.35-.676c-.899-.405-1.892-.946-2.912-1.486s-2.067-1.081-3.074-1.486c-1.01-.405-1.973-.674-2.832-.674s-1.666.269-2.418.674-1.449.946-2.094 1.486c-.644.54-1.235 1.081-1.771 1.486-.537.405-1.02.676-1.449.676-.43 0-.807-.245-1.129-.611s-.59-.854-.805-1.342c-.094-.213-.067-.223-.141-.426v3.598c0 3.089 2.486 5.574 5.574 5.574h17.05c3.089 0 5.574-2.486 5.574-5.574z" fill="#19c171"/><path d="m7.473 1.79c-3.089 0-5.574 2.486-5.574 5.574v7.516c.254-.308.456-.615 1.215-1.23.537-.436 1.181-.872 1.906-1.199s1.53-.545 2.389-.545 1.672.178 2.459.445 1.548.624 2.307.977c.758.353 1.513.703 2.287.961s1.566.424 2.398.406c.416-.009.822-.125 1.219-.32s.786-.47 1.166-.799c.76-.657 1.489-1.526 2.193-2.393.705-.867 1.385-1.733 2.051-2.381s1.319-1.078 1.963-1.078c1.289 0 2.576.453 3.543.906.664.311.852.459 1.107.623v-1.889c0-3.089-2.486-5.574-5.574-5.574z" fill="#494949"/></g>
+
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="32"
+   width="32"
+   version="1"
+   id="svg8"
+   sodipodi:docname="snow-top-2.svg"
+   inkscape:version="0.92.1 r"&gt;
+  <path d="m24.646 6.111c2.995 2.684 1.381 7.817 3.674 8.291 2.031.613 3.541-1.385 3.66-4.503.35-8.627-3.911-9.427-6.879-9.524-28.342-2.047-1.762 4.92-.455 5.736" fill="url(#a)"/></svg>

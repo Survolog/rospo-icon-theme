@@ -1,7 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" version="1.1" viewBox="0 0 16 16">
- <rect style="fill:#8e8e8e" width="15" height="15" x="-16" y="-15" rx=".75" ry=".75" transform="matrix(0,-1,-1,0,0,0)"/>
- <path style="fill:#3f3f3f" d="m3.6914062 6-0.3671874 1h9.1757812l0.25-1z"/>
- <path style="fill:#3f3f3f" d="m2.7695312 10-0.3691406 1h9.0996094l0.25-1z"/>
- <path style="fill:#3f3f3f" d="m6.25 4-2.25 9h1l2.25-9z"/>
- <path style="fill:#3f3f3f" d="m10.25 4-2.25 9h1l2.25-9z"/>
-</svg>
+<svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><rect fill="#8e8e8e" height="15" rx=".75" transform="matrix(0 -1 -1 0 0 0)" width="15" x="-16" y="-15"/><g fill="#3f3f3f"><path d="m3.6914062 6-.3671874 1h9.1757812l.25-1z"/><path d="m2.7695312 10-.3691406 1h9.0996094l.25-1z"/><path d="m6.25 4-2.25 9h1l2.25-9z"/><path d="m10.25 4-2.25 9h1l2.25-9z"/></g></svg>

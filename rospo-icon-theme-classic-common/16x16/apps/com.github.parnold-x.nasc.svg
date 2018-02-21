@@ -1,5 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" version="1">
- <rect style="fill:#aedeec" width="16" height="16" x="-16" y="-16" rx=".857" ry=".857" transform="matrix(0,-1,-1,0,0,0)"/>
- <path style="fill:#e37739" d="m 2.0002,4 0,0.7 0.0028,0.29998 1.497,2.5 -1.5,2.5 0,1 5.5,0 0,-1.5 -1,0 0,0.5 -3.5,0 1.5,-2.5 -1.5,-2.5 3,0 0,0.5 1,0 0,-1.5 -4.9999,0 z"/>
- <rect style="fill:#ffffff" width="1" height="16" x="10" y="0"/>
-</svg>
+<svg height="16" width="16" xmlns="http://www.w3.org/2000/svg"><rect fill="#aedeec" height="16" rx=".857" transform="matrix(0 -1 -1 0 0 0)" width="16" x="-16" y="-16"/><path d="m2.0002 4v .7l.0028.29998 1.497 2.5-1.5 2.5v1h5.5v-1.5h-1v .5h-3.5l1.5-2.5-1.5-2.5h3v .5h1v-1.5h-4.9999z" fill="#e37739"/><path d="m10 0h1v16h-1z" fill="#fff"/></svg>

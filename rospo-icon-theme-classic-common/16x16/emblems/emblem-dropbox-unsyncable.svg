@@ -1,9 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" version="1.1" viewBox="0 0 22 22">
- <g transform="translate(-1,1)">
-  <circle style="fill:#5c616c" cx="12" cy="10" r="10"/>
-  <g transform="matrix(0.70710678,0.70710678,-0.70710678,0.70710678,12,-6.9705627)">
-   <rect style="fill:#ffffff" width="2" height="14" x="-13" y="5" transform="matrix(0,-1,1,0,0,0)"/>
-   <rect style="fill:#ffffff" width="2" height="14" x="11" y="5"/>
-  </g>
- </g>
-</svg>
+<svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><g transform="scale(.5)"><circle cx="16" cy="16" fill="#252a35" r="14"/><g transform="matrix(.70710678 .70710678 -.70710678 .70710678 16 -6.627417)"><path d="m-18 6h4v20h-4z" fill="#fff" transform="rotate(-90)"/><path d="m14 6h4v20h-4z" fill="#fff"/></g></g></svg>

@@ -1,11 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" version="1.1" viewBox="0 0 48 48">
- <path d="m 24,5 0,20 20,0 A 20,20 0 0 0 24,5 Z m 0,20 -20,0 a 20,20 0 0 0 20,20 l 0,-20 z" style="opacity:0.2"/>
- <path style="fill:#cccccc" d="M 24 4 L 24 24 L 44 24 A 20 20 0 0 0 24 4 z M 24 24 L 4 24 A 20 20 0 0 0 24 44 L 24 24 z"/>
- <path style="fill:#ffffff;opacity:0.2" d="M 24 4 L 24 5 A 20 20 0 0 1 43.949219 24 L 44 24 A 20 20 0 0 0 24 4 z M 4 24 A 20 20 0 0 0 4.0507812 25 L 24 25 L 24 24 L 4 24 z"/>
- <circle cx="24" cy="25" r="16" style="opacity:0.2"/>
- <circle style="fill:#ffffff" cx="24" cy="24" r="16"/>
- <circle cx="24" cy="24" r="12" style="fill:#3ca2e4"/>
- <path d="m 20,17.9998 8,0 0,7 -8,0 0,7 8,0" style="opacity:0.2;fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round"/>
- <path style="fill:none;stroke:#ffc34c;stroke-width:4;stroke-linecap:round;stroke-linejoin:round" d="m 20,17 8,0 0,7 -8,0 0,7 8,0"/>
- <path style="opacity:0.2;fill:#ffffff;fill-rule:evenodd" d="M 20 15 A 2.0002 2.0002 0 0 0 18.037109 17.5 A 2.0002 2.0002 0 0 1 20 16 L 28 16 A 2.0002 2.0002 0 0 1 30 18 L 30 17 A 2.0002 2.0002 0 0 0 28 15 L 20 15 z M 20 22 A 2.0002 2.0002 0 0 0 18 24 L 18 25 A 2.0002 2.0002 0 0 1 20 23 L 26 23 L 26 22 L 20 22 z M 22 29 L 22 30 L 28 30 A 2.0002 2.0002 0 0 1 29.962891 31.5 A 2.0002 2.0002 0 0 0 28 29 L 22 29 z"/>
-</svg>
+<svg height="48" viewBox="0 0 48 48" width="48" xmlns="http://www.w3.org/2000/svg"><path d="m24 5v20h20a20 20 0 0 0 -20-20zm0 20h-20a20 20 0 0 0 20 20z" opacity=".2"/><path d="m24 4v20h20a20 20 0 0 0 -20-20zm0 20h-20a20 20 0 0 0 20 20z" fill="#e4e4e4"/><path d="m24 4v1a20 20 0 0 1 19.949219 19h .050781a20 20 0 0 0 -20-20zm-20 20a20 20 0 0 0  .0507812 1h19.9492188v-1z" fill="#fff" opacity=".2"/><circle cx="24" cy="25" opacity=".2" r="16"/><circle cx="24" cy="24" fill="#fff" r="16"/><circle cx="24" cy="24" fill="#3ca2e4" r="12"/><path d="m20 17.9998h8v7h-8v7h8" style="opacity:.2;fill:none;stroke:#000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round"/><path d="m20 17h8v7h-8v7h8" fill="none" stroke="#ffc34c" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="m20 15a2.0002 2.0002 0 0 0 -1.962891 2.5 2.0002 2.0002 0 0 1 1.962891-1.5h8a2.0002 2.0002 0 0 1 2 2v-1a2.0002 2.0002 0 0 0 -2-2zm0 7a2.0002 2.0002 0 0 0 -2 2v1a2.0002 2.0002 0 0 1 2-2h6v-1zm2 7v1h6a2.0002 2.0002 0 0 1 1.962891 1.5 2.0002 2.0002 0 0 0 -1.962891-2.5z" fill="#fff" fill-rule="evenodd" opacity=".2"/></svg>

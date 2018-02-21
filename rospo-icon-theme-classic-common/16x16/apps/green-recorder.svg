@@ -1,6 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" version="1">
- <rect fill="#8e8e8e" width="12" height="10" x="-15" y="-13" rx=".75" ry=".833" transform="matrix(0,-1,-1,0,0,0)"/>
- <rect style="fill:#4f4f4f" width="12" height="16" x="-13" y="-16" rx=".75" ry=".8" transform="matrix(0,-1,-1,0,0,0)"/>
- <rect style="fill:#37b368" width="8" height="12" x="-11" y="-14" rx="0" ry="0" transform="matrix(0,-1,-1,0,0,0)"/>
- <path style="fill:#ffffff" d="m 5.3361,5.000305 4.3539,0 c 0.33621,0 0.31,0.35589 0.31,0.35589 l 0,3.2878 c 0,0.356 -0.31,0.356 -0.31,0.356 l -4.3539001,0 c 0,0 -0.3362,0 -0.3362,-0.356 l 0,-3.2881 c 0,0 0,-0.3559 0.3362,-0.3559 z M 12,5.5 l 0,3 -2,-1.49969 z"/>
-</svg>
+<svg height="16" width="16" xmlns="http://www.w3.org/2000/svg"><g transform="matrix(0 -1 -1 0 0 0)"><rect fill="#8e8e8e" height="10" rx=".75" ry=".833" width="12" x="-15" y="-13"/><rect fill="#4f4f4f" height="16" rx=".75" ry=".8" width="12" x="-13" y="-16"/><path d="m-11-14h8v12h-8z" fill="#37b368"/></g><path d="m5.3361 5.000305h4.3539c.33621 0 .31.35589.31.35589v3.2878c0 .356-.31.356-.31.356h-4.3539001s-.3362 0-.3362-.356v-3.2881s0-.3559.3362-.3559zm6.6639.499695v3l-2-1.49969z" fill="#fff"/></svg>

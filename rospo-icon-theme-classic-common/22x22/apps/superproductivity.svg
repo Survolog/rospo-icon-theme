@@ -1,9 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" version="1.1" viewBox="0 0 22 22">
- <circle style="opacity:0.2" cx="11" cy="11.5" r="10"/>
- <circle style="fill:#7861e6" cx="11" cy="11" r="10"/>
- <path style="opacity:0.2;fill:#ffffff" d="M 11.000065,0.9998663 A 10.000065,10.000065 0 0 0 1,10.999932 10.000065,10.000065 0 0 0 1.0107501,11.290933 10.000065,10.000065 0 0 1 11.000065,1.4998696 10.000065,10.000065 0 0 1 20.98963,11.208933 10.000065,10.000065 0 0 0 21.00013,10.999932 10.000065,10.000065 0 0 0 11.000065,0.9998663 Z"/>
- <circle style="opacity:0.2" cx="11" cy="11.5" r="7"/>
- <circle style="fill:#acc0ff" cx="11" cy="11" r="7"/>
- <path d="M 8.0000456,9.500048 11.000065,13.500074 19.000117,3.5000091" style="opacity:0.2;fill:none;stroke:#000000;stroke-width:4.00002623;stroke-linecap:round;stroke-linejoin:round"/>
- <path style="fill:none;stroke:#3f3f3f;stroke-width:4;stroke-linecap:round;stroke-linejoin:round" d="M 8.0000456,8.9999185 11.000065,12.999945 19.000117,2.9998794"/>
-</svg>
+<svg height="22" viewBox="0 0 22 22" width="22" xmlns="http://www.w3.org/2000/svg"><circle cx="11" cy="11.5" opacity=".2" r="10"/><circle cx="11" cy="11" fill="#7861e6" r="10"/><path d="m11.000065.9998663a10.000065 10.000065 0 0 0 -10.000065 10.0000657 10.000065 10.000065 0 0 0  .0107501.291001 10.000065 10.000065 0 0 1 9.9893149-9.7910634 10.000065 10.000065 0 0 1 9.989565 9.7090634 10.000065 10.000065 0 0 0  .0105-.209001 10.000065 10.000065 0 0 0 -10.000065-10.0000657z" fill="#fff" opacity=".2"/><circle cx="11" cy="11.5" opacity=".2" r="7"/><circle cx="11" cy="11" fill="#acc0ff" r="7"/><path d="m8.0000456 9.500048 3.0000194 4.000026 8.000052-10.0000649" style="opacity:.2;fill:none;stroke:#000;stroke-width:4.000026;stroke-linecap:round;stroke-linejoin:round"/><path d="m8.0000456 8.9999185 3.0000194 4.0000265 8.000052-10.0000656" fill="none" stroke="#3f3f3f" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/></svg>

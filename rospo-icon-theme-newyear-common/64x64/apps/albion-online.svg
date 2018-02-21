@@ -1,1 +1,18 @@
-../../../rospo-icon-theme-newyear-common/16x16/apps/albion-online.svg
+<svg height="32" viewBox="0 0 8.47 8.47" width="32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><linearGradient id="a" gradientTransform="matrix(.69583962 0 0 .71801513 -42.392976 -77.135237)" gradientUnits="userSpaceOnUse" x1="67.893997" x2="67.853996" y1="108.69" y2="113.11"><stop offset="0" stop-color="#f9f9f9"/><stop offset="1" stop-color="#999"/></linearGradient><rect fill="#ec8a2b" fill-rule="evenodd" height="7.465" rx="1.476" width="7.465" x=".502" y=".502"/><g transform="translate(12.451 .22)"><g transform="matrix(.64371 0 0 .65834 -10.907 -188.5)"><path d="m3.069 292.12h2.222v3.235l-1.111 1.111-1.111-1.111z" fill="#afafb1"/><path d="m3.069 292.12h1.111v4.346l-1.111-1.111" fill="#ccc"/></g><g stroke-width=".676"><rect fill="#e6e6e6" height="3.577" rx=".447" ry=".511" transform="rotate(90)" width=".894" x="3.105" y="6.428"/><path d="m-8.753 1.855h1.073v1.252h-1.073z" fill="#d13808"/><rect fill="#e6e6e6" height=".537" rx=".298" ry=".268" width="1.788" x="-9.111" y="1.672"/></g></g>
+
+
+   xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot;
+   xmlns:cc=&quot;http://creativecommons.org/ns#&quot;
+   xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;
+   xmlns:svg=&quot;http://www.w3.org/2000/svg&quot;
+   xmlns=&quot;http://www.w3.org/2000/svg&quot;
+   xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot;
+   xmlns:sodipodi=&quot;http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd&quot;
+   xmlns:inkscape=&quot;http://www.inkscape.org/namespaces/inkscape&quot;
+   version=&quot;1&quot;
+   width=&quot;32&quot;
+   height=&quot;32&quot;
+   id=&quot;svg12&quot;
+   sodipodi:docname=&quot;snow-top-4.svg&quot;
+   inkscape:version=&quot;0.92.1 r&quot;&gt;
+  <path d="m1.9284178.00237674c-2.19055379-.0942288-2.47747499 2.64475726-1.06404379 2.63972836.17972279.000794.42455879-.05479.78612199-.4084128 1.9205723-2.78742406 3.8924942.9457283 4.6399717.2432478.4526156-.5060825.9253475-.1106394 1.17733.030439.5558437.170194.9692856.010852 1.0018421-.8552053.049761-.8790271-.4999946-1.67917746-1.567744-1.64715026-1.5653619.037056-3.438026-.01244-4.9726839-.00265" fill="url(#a)" stroke-width=".264688"/></svg>

@@ -1,8 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" version="1">
- <rect style="opacity:0.2" width="16" height="20" x="-20.5" y="-22" rx="1" ry="1" transform="matrix(0,-1,-1,0,0,0)"/>
- <rect style="fill:#4f4f4f" width="16" height="20" x="-20" y="-22" rx="1" ry="1" transform="matrix(0,-1,-1,0,0,0)"/>
- <path style="opacity:0.1;fill:#ffffff" d="M 3,4 C 2.446,4 2,4.446 2,5 l 0,0.5 c 0,-0.554 0.446,-1 1,-1 l 18,0 c 0.554,0 1,0.446 1,1 L 22,5 C 22,4.446 21.554,4 21,4 L 3,4 Z"/>
- <circle style="fill:#1ea362" cx="17.5" cy="17.5" r="5.5"/>
- <path style="fill:#ffffff" d="m 15,18.582 0,1.4182 1.4182,0 3.582,-3.582 -1.418,-1.418 z"/>
- <path style="opacity:0.1;fill:#ffffff" d="M 5,4 3,4 C 2.446,4 2,4.446 2,5 l 0,14 c 0,0.554 0.446,1 1,1 l 2,0 z"/>
-</svg>
+<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg"><rect height="20" opacity=".2" rx="1" transform="matrix(0 -1 -1 0 0 0)" width="16" x="-20.5" y="-22"/><rect fill="#4f4f4f" height="20" rx="1" transform="matrix(0 -1 -1 0 0 0)" width="16" x="-20" y="-22"/><path d="m3 4c-.554 0-1 .446-1 1v .5c0-.554.446-1 1-1h18c .554 0 1 .446 1 1v-.5c0-.554-.446-1-1-1z" fill="#fff" opacity=".1"/><circle cx="17.5" cy="17.5" fill="#1ea362" r="5.5"/><path d="m15 18.582v1.4182h1.4182l3.582-3.582-1.418-1.418z" fill="#fff"/><path d="m5 4h-2c-.554 0-1 .446-1 1v14c0 .554.446 1 1 1h2z" fill="#fff" opacity=".1"/></svg>
