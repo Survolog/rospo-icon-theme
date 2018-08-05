@@ -1,7 +1,7 @@
 rospo-icon-theme
 ===============
 
-ROSPO icons version 2.0.2
+ROSPO icons version 2.0.4
 Based on the wonderful [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) theme.
 
 ## Features
@@ -9,7 +9,7 @@ Based on the wonderful [Papirus](https://github.com/PapirusDevelopmentTeam/papir
 * More than 3000 icons
 * Suitable for different environments KDE4, KDE5 Plasma, Xfce, Gnome, LXQT, Mate, etc.
 * For dark and light themes
-* New "New Year" theme
+* New "green" and "yellow" themes
 
 ## Installation
 

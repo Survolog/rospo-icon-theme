@@ -1,17 +1,1 @@
-<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><linearGradient id="a" gradientTransform="matrix(-2.54182 0 0 2.58531 185.47 -277.37)" gradientUnits="userSpaceOnUse" x1="67.894" x2="67.854" y1="108.69" y2="113.11"><stop offset="0" stop-color="#f9f9f9"/><stop offset="1" stop-color="#999"/></linearGradient><rect fill="#ccc" fill-rule="evenodd" height="28.2" rx="5.575" width="28.2" x="1.898" y="1.898"/><path d="m16 9.03c-2.625 0-4.861 1.607-5.823 3.882-2.444.363-4.318 2.447-4.318 4.992 0 2.8 2.27 5.071 5.071 5.071h10.775c2.45 0 4.437-1.987 4.437-4.437 0-2.278-1.712-4.144-3.922-4.397-.576-2.907-3.143-5.11-6.219-5.11" fill="#fff"/><g fill="#808080"><path d="m16.930924 12.164889a.950826.950826 0 0 0 -.429562 1.773956s1.363.691 1.363 3.038c0 1.169-.375 1.882-.732 2.341s-.635.6-.635.6a.950826.950826 0 1 0  .906166 1.671207s.654-.364 1.229-1.103 1.133-1.913 1.133-3.51c0-3.184-2.29-4.672-2.29-4.672a.950826.950826 0 0 0 -.54469-.139887"/><path d="m13.12305 13.459766a.950826.950826 0 0 0 -.321862 1.840803s1.297.512 1.297 1.702-1.254 1.582-1.254 1.582a.95088.95088 0 1 0  .606587 1.802428s2.549-.887 2.549-3.385c0-2.497-2.506-3.472-2.506-3.472a.950826.950826 0 0 0 -.371379-.07056"/></g>
-
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   height="32"
-   width="32"
-   version="1"
-   id="svg8"
-   sodipodi:docname="snow-top-3.svg"
-   inkscape:version="0.92.1 r"&gt;
-  <path id="b" d="m0 0h32v32h-32z" fill="none"/><path d="m7.354 6.111c-2.995 2.684-1.381 7.817-3.674 8.291-2.031.613-3.541-1.385-3.66-4.503-.35-8.627 3.911-9.427 6.879-9.524 28.342-2.047 1.762 4.92.455 5.736" fill="url(#a)"/><use xlink:href="#b"/></svg>
+../../../rospo-icon-theme-newyear-common/64x64/apps/nuvolaplayer3_mixcloud.svg
