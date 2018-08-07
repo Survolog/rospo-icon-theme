@@ -1,0 +1,17 @@
+<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><linearGradient id="a" gradientTransform="matrix(-2.54182 0 0 2.58531 185.47 -277.37)" gradientUnits="userSpaceOnUse" x1="67.894" x2="67.854" y1="108.69" y2="113.11"><stop offset="0" stop-color="#f9f9f9"/><stop offset="1" stop-color="#999"/></linearGradient><rect fill="#ececec" fill-rule="evenodd" height="28.2" rx="5.575" width="28.2" x="1.898" y="1.898"/><g transform="translate(53.15 5.03)"><path d="m-40.532 16.515c1.079.617 1.454 1.992.837 3.071s-1.992 1.454-3.071.837c-1.08-.617-1.454-1.992-.837-3.071s1.992-1.454 3.071-.837" fill="#ffcf3f"/><path d="m-42.972 10.561c1.259.72 1.696 2.324.976 3.583s-2.324 1.696-3.583.976-1.696-2.324-.976-3.583 2.324-1.696 3.583-.976" fill="#7cc327"/><path d="m-40.91 3.857c1.439.823 1.938 2.656 1.116 4.095s-2.656 1.938-4.095 1.116-1.939-2.656-1.116-4.095 2.656-1.939 4.095-1.116" fill="#27adc3"/><path d="m-30.972 1.755c1.979 1.131 2.666 3.652 1.534 5.63-1.131 1.979-3.652 2.666-5.63 1.534-1.979-1.131-2.666-3.652-1.534-5.63 1.131-1.979 3.652-2.666 5.63-1.534" fill="#ffcf3f"/><path d="m-28.904 10.611c1.439.823 1.939 2.656 1.116 4.095s-2.656 1.939-4.095 1.116-1.939-2.656-1.116-4.095 2.656-1.939 4.095-1.116" fill="#7cc327"/><path d="m-33.34 15.747c1.296.65 1.82 2.228 1.17 3.524s-2.228 1.82-3.524 1.17-1.82-2.228-1.17-3.524 2.228-1.82 3.524-1.17" fill="#27adc3"/></g>
+
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="32"
+   width="32"
+   version="1"
+   id="svg8"
+   sodipodi:docname="snow-top-3.svg"
+   inkscape:version="0.92.1 r"&gt;
+  <path id="b" d="m0 0h32v32h-32z" fill="none"/><path d="m7.354 6.111c-2.995 2.684-1.381 7.817-3.674 8.291-2.031.613-3.541-1.385-3.66-4.503-.35-8.627 3.911-9.427 6.879-9.524 28.342-2.047 1.762 4.92.455 5.736" fill="url(#a)"/><use xlink:href="#b"/></svg>
