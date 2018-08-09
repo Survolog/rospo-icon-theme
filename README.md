@@ -1,7 +1,7 @@
 rospo-icon-theme
 ===============
 
-ROSPO icons version 2.0.7
+ROSPO icons version 2.0.8
 Based on the wonderful [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) theme.
 
 ## Features
