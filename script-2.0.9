@@ -1,0 +1,371 @@
+#noauto
+
+tar -xzf neru-icon-classic-theme-*.tar.gz
+tar -xzf neru-icon-newyear-theme-*.tar.gz
+tar -xzf xfce-rospo-icon-theme-*.tar.gz
+
+mkdir rebuild
+mv -f neru-icon-classic-theme-2.2 neru-icon-newyear-theme-1.0 xfce-rospo-icon-theme-1.7 rebuild/
+
+cd rebuild
+
+rm -rf ./*/{AUTHORS,classic.png,install.sh,LICENSE,preview.png,README.md,screenshot.svg}
+
+find . -type f -exec chmod 0644 {} \;
+find . -type d -exec chmod 0755 {} \;
+
+#Fix bad symlinks
+cd neru-icon-classic-theme-*
+ln -sf ../../neru-classic-light/32x32/apps neru-classic-dark/32x32/apps
+ln -sf ../../neru-classic-light/32x32/devices neru-classic-dark/32x32/devices
+ln -sf ../../neru-classic-light/32x32/mimetypes neru-classic-dark/32x32/mimetypes
+ln -sf ../../neru-classic-light/32x32/places neru-classic-dark/32x32/places
+ln -sf ../../neru-classic-light/32x32/apps neru-classic-dark-green/32x32/apps
+ln -sf ../../neru-classic-light/32x32/devices neru-classic-dark-green/32x32/devices
+ln -sf ../../neru-classic-light/32x32/mimetypes neru-classic-dark-green/32x32/mimetypes
+ln -sf ../../neru-classic-light-green/32x32/places neru-classic-dark-green/32x32/places
+ln -sf ../../neru-classic-dark/32x32/start neru-classic-dark-green/32x32/start
+ln -sf ../../neru-classic-dark/32x32/status neru-classic-dark-green/32x32/status
+ln -sf ../neru-classic-dark/16x16 neru-classic-dark-green/16x16
+ln -sf ../neru-classic-dark/22x22 neru-classic-dark-green/22x22
+ln -sf ../../neru-classic-light/32x32/apps neru-classic-dark-yellow/32x32/apps
+ln -sf ../../neru-classic-light/32x32/devices neru-classic-dark-yellow/32x32/devices
+ln -sf ../../neru-classic-light/32x32/mimetypes neru-classic-dark-yellow/32x32/mimetypes
+ln -sf ../../neru-classic-light-yellow/32x32/places neru-classic-dark-yellow/32x32/places
+ln -sf ../../neru-classic-dark/32x32/start neru-classic-dark-yellow/32x32/start
+ln -sf ../../neru-classic-dark/32x32/status neru-classic-dark-yellow/32x32/status
+ln -sf ../neru-classic-dark/16x16 neru-classic-dark-yellow/16x16
+ln -sf ../neru-classic-dark/22x22 neru-classic-dark-yellow/22x22
+ln -sf ../../neru-classic-light/32x32/apps neru-classic-light-green/32x32/apps
+ln -sf ../../neru-classic-light/32x32/devices neru-classic-light-green/32x32/devices
+ln -sf ../../neru-classic-light/32x32/mimetypes neru-classic-light-green/32x32/mimetypes
+ln -sf ../../neru-classic-light/32x32/start neru-classic-light-green/32x32/start
+ln -sf ../../neru-classic-light/32x32/status neru-classic-light-green/32x32/status
+ln -sf ../neru-classic-light/16x16 neru-classic-light-green/16x16
+ln -sf ../neru-classic-light/22x22 neru-classic-light-green/22x22
+ln -sf ../../neru-classic-light/32x32/apps neru-classic-light-yellow/32x32/apps
+ln -sf ../../neru-classic-light/32x32/devices neru-classic-light-yellow/32x32/devices
+ln -sf ../../neru-classic-light/32x32/mimetypes neru-classic-light-yellow/32x32/mimetypes
+ln -sf ../../neru-classic-light/32x32/start neru-classic-light-yellow/32x32/start
+ln -sf ../../neru-classic-light/32x32/status neru-classic-light-yellow/32x32/status
+ln -sf ../neru-classic-light/16x16 neru-classic-light-yellow/16x16
+ln -sf ../neru-classic-light/22x22 neru-classic-light-yellow/22x22
+ln -sf ../../16x16/actions/bonobo-component-browser.svg neru-classic-light/32x32/apps/xfce-system.svg
+cd..
+
+#Fix .svgz
+rm -f */*/*/*/*.svgz
+find -type f |grep .svgz
+
+#rename
+cd neru-icon-newyear-theme-*
+for i in *; do
+mv -f $i/large $i/256x256
+mv -f $i/medium $i/32x32
+mv -f $i/small $i/22x22
+done
+ln -sf ../../22x22/panel/weather.svg neru-newyear-dark/32x32/apps/com.librehat.yahooweather.svg
+ln -sf ../../22x22/panel/weather.svg neru-newyear-dark/32x32/apps/cumulus.svg
+ln -sf ../../22x22/panel/weather.svg neru-newyear-dark/32x32/apps/gis-weather.svg
+ln -sf ../../22x22/panel/weather.svg neru-newyear-dark/32x32/apps/gnome-weather.svg
+ln -sf ../../22x22/panel/weather.svg neru-newyear-dark/32x32/apps/indicator-weather.svg
+ln -sf ../../22x22/panel/weather.svg neru-newyear-dark/32x32/apps/org.gnome.Weather.Application.svg
+ln -sf ../../22x22/panel/weather.svg neru-newyear-dark/32x32/apps/org.gnome.Weather.svg
+ln -sf ../../22x22/panel/weather.svg neru-newyear-dark/32x32/apps/org.gnome.weather.application.svg
+ln -sf ../../22x22/panel/weather.svg neru-newyear-dark/32x32/apps/org.gnome.weather.svg
+ln -sf ../../22x22/panel/weather.svg neru-newyear-dark/32x32/apps/xfce4-weather.svg
+ln -sf ../../../neru-newyear-dark/22x22/panel/weather.svg neru-newyear-light/32x32/apps/com.librehat.yahooweather.svg
+ln -sf ../../../neru-newyear-dark/22x22/panel/weather.svg neru-newyear-light/32x32/apps/cumulus.svg
+ln -sf ../../../neru-newyear-dark/22x22/panel/weather.svg neru-newyear-light/32x32/apps/gis-weather.svg
+ln -sf ../../../neru-newyear-dark/22x22/panel/weather.svg neru-newyear-light/32x32/apps/gnome-weather.svg
+ln -sf ../../../neru-newyear-dark/22x22/panel/weather.svg neru-newyear-light/32x32/apps/indicator-weather.svg
+ln -sf ../../../neru-newyear-dark/22x22/panel/weather.svg neru-newyear-light/32x32/apps/org.gnome.Weather.Application.svg
+ln -sf ../../../neru-newyear-dark/22x22/panel/weather.svg neru-newyear-light/32x32/apps/org.gnome.Weather.svg
+ln -sf ../../../neru-newyear-dark/22x22/panel/weather.svg neru-newyear-light/32x32/apps/org.gnome.weather.application.svg
+ln -sf ../../../neru-newyear-dark/22x22/panel/weather.svg neru-newyear-light/32x32/apps/org.gnome.weather.svg
+ln -sf ../../../neru-newyear-dark/22x22/panel/weather.svg neru-newyear-light/32x32/apps/xfce4-weather.svg
+cd..
+
+#rename
+cd neru-icon-classic-theme-*
+for i in *; do
+mv -f $i/large $i/256x256
+done
+ln -sf ../neru-classic-dark/256x256 neru-classic-dark-green/256x256
+ln -sf ../neru-classic-dark/256x256 neru-classic-dark-yellow/256x256
+ln -sf ../neru-classic-light/256x256 neru-classic-light-green/256x256
+ln -sf ../neru-classic-light/256x256 neru-classic-light-yellow/256x256
+cd..
+cd..
+
+###
+
+#make ramdisk
+mkdir -p fast
+sudo mount -t tmpfs tmpfs fast -o size=6000m
+
+###
+###
+###
+
+cp -RL rebuild/* fast/
+cd fast
+rm -f */*/index.theme
+
+#Rename
+mv -f neru-icon-classic-theme-*/neru-classic-dark-yellow rospo-dark-yellow
+mv -f neru-icon-classic-theme-*/neru-classic-light-yellow rospo-light-yellow
+rm -rf neru-icon-classic-theme-*
+mv -f neru-icon-newyear-theme-*/neru-newyear-dark rospo-dark-newyear
+mv -f neru-icon-newyear-theme-*/neru-newyear-light rospo-light-newyear
+rm -rf neru-icon-newyear-theme-*
+mv -f xfce-rospo-icon-theme-*/xfce-rospo-dark rospo-dark
+mv -f xfce-rospo-icon-theme-*/xfce-rospo-dark-green rospo-dark-green
+mv -f xfce-rospo-icon-theme-*/xfce-rospo-light rospo-light
+mv -f xfce-rospo-icon-theme-*/xfce-rospo-light-green rospo-light-green
+rm -rf xfce-rospo-icon-theme-*
+
+#Rename extra/clementine
+for i in */{16x16,22x22}; do
+mv -f $i/extra/clementine $i/
+rmdir $i/extra
+done
+
+###
+
+#Save filelists
+for i in rospo-{dark,light}{,-green,-newyear,-yellow}; do
+cd $i
+find -type f > ../$i-filelist.txt
+cd..
+done
+#Save sort-filelist
+>filelist.txt
+for i in rospo-*.txt; do
+cat $i >> filelist.txt
+done
+cat filelist.txt |sort -u >sort-filelist.txt
+rm -f filelist.txt
+#Make common
+a=rospo-dark
+b=rospo-dark-green
+c=rospo-dark-yellow
+d=rospo-light
+e=rospo-light-green
+f=rospo-light-yellow
+g=rospo-common
+while read LINE; do if cmp -s $a/$LINE $b/$LINE && cmp -s $a/$LINE $c/$LINE && cmp -s $a/$LINE $d/$LINE && cmp -s $a/$LINE $e/$LINE && cmp -s $a/$LINE $f/$LINE; then echo $LINE >> dublist.txt; fi; done < sort-filelist.txt
+mkdir -p dubsvg
+while read LINE; do cp -f --parents $a/$LINE dubsvg/; rm -f {$a,$b,$c,$d,$e,$f}/$LINE; done < dublist.txt
+mv -f dubsvg/$a $g
+rm -f dublist.txt
+
+#Save filelists
+for i in rospo-{dark,light}; do
+cd $i
+find -type f > ../$i-filelist.txt
+cd..
+done
+#Save sort-filelist
+>filelist.txt
+for i in rospo-{dark,light}-filelist.txt; do
+cat $i >> filelist.txt
+done
+cat filelist.txt |sort -u >sort-filelist.txt
+rm -f filelist.txt
+#Make classic-common
+a=rospo-dark
+b=rospo-light
+c=rospo-classic-common
+while read LINE; do if cmp -s $a/$LINE $b/$LINE; then echo $LINE >> dublist.txt; fi; done < sort-filelist.txt
+mkdir -p dubsvg
+while read LINE; do cp -f --parents $a/$LINE dubsvg/; rm -f {$a,$b}/$LINE; done < dublist.txt
+mv -f dubsvg/$a $c
+rm -f dublist.txt
+
+#Save filelists
+for i in rospo-{dark,light}-green; do
+cd $i
+find -type f > ../$i-filelist.txt
+cd..
+done
+#Save sort-filelist
+>filelist.txt
+for i in rospo-{dark,light}-green-filelist.txt; do
+cat $i >> filelist.txt
+done
+cat filelist.txt |sort -u >sort-filelist.txt
+rm -f filelist.txt
+#Make green-common
+a=rospo-dark-green
+b=rospo-light-green
+c=rospo-green-common
+while read LINE; do if cmp -s $a/$LINE $b/$LINE; then echo $LINE >> dublist.txt; fi; done < sort-filelist.txt
+mkdir -p dubsvg
+while read LINE; do cp -f --parents $a/$LINE dubsvg/; rm -f {$a,$b}/$LINE; done < dublist.txt
+mv -f dubsvg/$a $c
+rm -f dublist.txt
+
+#Save filelists
+for i in rospo-{dark,light}-newyear; do
+cd $i
+find -type f > ../$i-filelist.txt
+cd..
+done
+#Save sort-filelist
+>filelist.txt
+for i in rospo-{dark,light}-newyear-filelist.txt; do
+cat $i >> filelist.txt
+done
+cat filelist.txt |sort -u >sort-filelist.txt
+rm -f filelist.txt
+#Make newyear-common
+a=rospo-dark-newyear
+b=rospo-light-newyear
+c=rospo-newyear-common
+while read LINE; do if cmp -s $a/$LINE $b/$LINE; then echo $LINE >> dublist.txt; fi; done < sort-filelist.txt
+mkdir -p dubsvg
+while read LINE; do cp -f --parents $a/$LINE dubsvg/; rm -f {$a,$b}/$LINE; done < dublist.txt
+mv -f dubsvg/$a $c
+rm -f dublist.txt
+
+#Save filelists
+for i in rospo-{dark,light}-yellow; do
+cd $i
+find -type f > ../$i-filelist.txt
+cd..
+done
+#Save sort-filelist
+>filelist.txt
+for i in rospo-{dark,light}-yellow-filelist.txt; do
+cat $i >> filelist.txt
+done
+cat filelist.txt |sort -u >sort-filelist.txt
+rm -f filelist.txt
+#Make yellow-common
+a=rospo-dark-yellow
+b=rospo-light-yellow
+c=rospo-yellow-common
+while read LINE; do if cmp -s $a/$LINE $b/$LINE; then echo $LINE >> dublist.txt; fi; done < sort-filelist.txt
+mkdir -p dubsvg
+while read LINE; do cp -f --parents $a/$LINE dubsvg/; rm -f {$a,$b}/$LINE; done < dublist.txt
+mv -f dubsvg/$a $c
+rm -f dublist.txt
+
+#Save filelists
+for i in rospo-dark{,-green,-newyear,-yellow}; do
+cd $i
+find -type f > ../$i-filelist.txt
+cd..
+done
+#Save sort-filelist
+>filelist.txt
+for i in rospo-dark{,-green,-newyear,-yellow}-filelist.txt; do
+cat $i >> filelist.txt
+done
+cat filelist.txt |sort -u >sort-filelist.txt
+rm -f filelist.txt
+#Make dark-common
+a=rospo-dark
+b=rospo-dark-green
+c=rospo-dark-newyear
+d=rospo-dark-yellow
+e=rospo-dark-common
+while read LINE; do if cmp -s $a/$LINE $b/$LINE && cmp -s $a/$LINE $c/$LINE && cmp -s $a/$LINE $d/$LINE; then echo $LINE >> dublist.txt; fi; done < sort-filelist.txt
+mkdir -p dubsvg
+while read LINE; do cp -f --parents $a/$LINE dubsvg/; rm -f {$a,$b,$c,$d}/$LINE; done < dublist.txt
+mv -f dubsvg/$a $e
+rm -f dublist.txt
+
+#Save filelists
+for i in rospo-light{,-green,-newyear,-yellow}; do
+cd $i
+find -type f > ../$i-filelist.txt
+cd..
+done
+#Save sort-filelist
+>filelist.txt
+for i in rospo-light{,-green,-newyear,-yellow}-filelist.txt; do
+cat $i >> filelist.txt
+done
+cat filelist.txt |sort -u >sort-filelist.txt
+rm -f filelist.txt
+#Make light-common
+a=rospo-light
+b=rospo-light-green
+c=rospo-light-newyear
+d=rospo-light-yellow
+e=rospo-light-common
+while read LINE; do if cmp -s $a/$LINE $b/$LINE && cmp -s $a/$LINE $c/$LINE && cmp -s $a/$LINE $d/$LINE; then echo $LINE >> dublist.txt; fi; done < sort-filelist.txt
+mkdir -p dubsvg
+while read LINE; do cp -f --parents $a/$LINE dubsvg/; rm -f {$a,$b,$c,$d}/$LINE; done < dublist.txt
+mv -f dubsvg/$a $e
+rm -f dublist.txt
+
+rm -f *.txt
+rm -rf dubsvg
+
+###
+
+#Replace copies to symlinks in subsubdirectories
+for i in */*/*; do
+pushd $i
+fdupes -q . > dupes.txt
+sed -i 's|\./||g' dupes.txt
+r=""; k=""
+while read LINE; do
+if [ "$k" = "" ]; then r=$LINE; else if [ "$LINE" != "" ]; then ln -sf $r $LINE; fi; fi
+k=$LINE
+done < dupes.txt
+rm -f dupes.txt
+popd
+done
+
+#Replace copies to symlinks in subdirectories
+for i in */*; do
+pushd $i
+fdupes -qr . > dupes.txt
+sed -i 's|\./||g' dupes.txt
+r=""; k=""
+while read LINE; do
+if [ "$k" = "" ]; then r=$LINE; else if [ "$LINE" != "" ]; then ln -sf ../$r $LINE; fi; fi
+k=$LINE
+done < dupes.txt
+rm -f dupes.txt
+popd
+done
+
+#Replace copies to symlinks in directories
+for i in *; do
+pushd $i
+fdupes -qr . > dupes.txt
+sed -i 's|\./||g' dupes.txt
+r=""; k=""
+while read LINE; do
+if [ "$k" = "" ]; then r=$LINE; else if [ "$LINE" != "" ]; then ln -sf ../../$r $LINE; fi; fi
+k=$LINE
+done < dupes.txt
+rm -f dupes.txt
+popd
+done
+
+#Delete empty directories
+find . -type d -empty -delete
+
+#Clean svg
+find -type f > ../filelist.txt
+for i in $(cat ../filelist.txt); do svgcleaner --multipass --quiet $i $i; done
+rm -f ../filelist.txt
+
+cd..
+mkdir -p endrebuild
+cp -rf fast/* endrebuild/
+sync
+
+###
+###
+###
+
+sudo umount fast
+rmdir fast
+
