@@ -21,7 +21,7 @@ DialogSizes=16,22,32,48,64,128,256
 FollowsColorScheme=true
 
 # Directory list
-Directories=16x16/actions,16x16/categories,16x16/clementine,16x16/places,22x22/actions,22x22/mimetypes,22x22/panel,32x32/start,48x48/start,64x64/start,symbolic/status,../../rospo-classic-common/16x16/actions,../../rospo-classic-common/16x16/apps,../../rospo-classic-common/16x16/emblems,../../rospo-classic-common/16x16/places,../../rospo-classic-common/22x22/actions,../../rospo-classic-common/22x22/apps,../../rospo-classic-common/22x22/emblems,../../rospo-classic-common/22x22/mimetypes,../../rospo-classic-common/32x32/apps,../../rospo-classic-common/32x32/categories,../../rospo-classic-common/32x32/devices,../../rospo-classic-common/32x32/emblems,../../rospo-classic-common/32x32/mimetypes,../../rospo-classic-common/32x32/places,../../rospo-classic-common/32x32/start,../../rospo-classic-common/32x32/status,../../rospo-classic-common/48x48/apps,../../rospo-classic-common/48x48/categories,../../rospo-classic-common/48x48/devices,../../rospo-classic-common/48x48/emblems,../../rospo-classic-common/48x48/mimetypes,../../rospo-classic-common/48x48/places,../../rospo-classic-common/48x48/status,../../rospo-classic-common/64x64/apps,../../rospo-classic-common/64x64/categories,../../rospo-classic-common/64x64/devices,../../rospo-classic-common/64x64/emblems,../../rospo-classic-common/64x64/mimetypes,../../rospo-classic-common/64x64/places,../../rospo-classic-common/64x64/status,../../rospo-classic-common/symbolic/actions,../../rospo-classic-common/symbolic/apps,../../rospo-classic-common/symbolic/categories,../../rospo-classic-common/symbolic/devices,../../rospo-classic-common/symbolic/emblems,../../rospo-classic-common/symbolic/emotes,../../rospo-classic-common/symbolic/mimetypes,../../rospo-classic-common/symbolic/places,../../rospo-classic-common/symbolic/status,../../rospo-dark-common/22x22/actions,../../rospo-dark-common/22x22/panel,../../rospo-common/22x22/actions,../../rospo-common/22x22/animations,../../rospo-common/32x32/apps,../../rospo-common/32x32/devices,../../rospo-common/32x32/mimetypes,../../rospo-common/32x32/status
+Directories=16x16/actions,16x16/categories,16x16/clementine,16x16/places,22x22/actions,22x22/mimetypes,22x22/panel,32x32/start,48x48/start,64x64/start,symbolic/status,../rospo-classic-common/16x16/actions,../rospo-classic-common/16x16/apps,../rospo-classic-common/16x16/emblems,../rospo-classic-common/16x16/places,../rospo-classic-common/22x22/actions,../rospo-classic-common/22x22/apps,../rospo-classic-common/22x22/emblems,../rospo-classic-common/22x22/mimetypes,../rospo-classic-common/32x32/apps,../rospo-classic-common/32x32/categories,../rospo-classic-common/32x32/devices,../rospo-classic-common/32x32/emblems,../rospo-classic-common/32x32/mimetypes,../rospo-classic-common/32x32/places,../rospo-classic-common/32x32/start,../rospo-classic-common/32x32/status,../rospo-classic-common/48x48/apps,../rospo-classic-common/48x48/categories,../rospo-classic-common/48x48/devices,../rospo-classic-common/48x48/emblems,../rospo-classic-common/48x48/mimetypes,../rospo-classic-common/48x48/places,../rospo-classic-common/48x48/status,../rospo-classic-common/64x64/apps,../rospo-classic-common/64x64/categories,../rospo-classic-common/64x64/devices,../rospo-classic-common/64x64/emblems,../rospo-classic-common/64x64/mimetypes,../rospo-classic-common/64x64/places,../rospo-classic-common/64x64/status,../rospo-classic-common/symbolic/actions,../rospo-classic-common/symbolic/apps,../rospo-classic-common/symbolic/categories,../rospo-classic-common/symbolic/devices,../rospo-classic-common/symbolic/emblems,../rospo-classic-common/symbolic/emotes,../rospo-classic-common/symbolic/mimetypes,../rospo-classic-common/symbolic/places,../rospo-classic-common/symbolic/status,../rospo-dark-common/22x22/actions,../rospo-dark-common/22x22/panel,../rospo-common/22x22/actions,../rospo-common/22x22/animations,../rospo-common/32x32/apps,../rospo-common/32x32/devices,../rospo-common/32x32/mimetypes,../rospo-common/32x32/status
 
 [16x16/actions]
 Context=Actions
@@ -89,280 +89,280 @@ MinSize=16
 MaxSize=512
 Type=Scalable
 
-[../../rospo-classic-common/16x16/actions]
+[../rospo-classic-common/16x16/actions]
 Context=Actions
 Size=16
 Type=Fixed
 
-[../../rospo-classic-common/16x16/apps]
+[../rospo-classic-common/16x16/apps]
 Context=Applications
 Size=16
 Type=Fixed
 
-[../../rospo-classic-common/16x16/emblems]
+[../rospo-classic-common/16x16/emblems]
 Context=Emblems
 Size=16
 Type=Fixed
 
-[../../rospo-classic-common/16x16/places]
+[../rospo-classic-common/16x16/places]
 Context=Places
 Size=16
 Type=Fixed
 
-[../../rospo-classic-common/22x22/actions]
+[../rospo-classic-common/22x22/actions]
 Context=Actions
 Size=22
 Type=Fixed
 
-[../../rospo-classic-common/22x22/animations]
+[../rospo-classic-common/22x22/animations]
 Context=Animations
 Size=22
 Type=Fixed
 
-[../../rospo-classic-common/22x22/apps]
+[../rospo-classic-common/22x22/apps]
 Context=Applications
 Size=22
 Type=Fixed
 
-[../../rospo-classic-common/22x22/emblems]
+[../rospo-classic-common/22x22/emblems]
 Context=Emblems
 Size=22
 Type=Fixed
 
-[../../rospo-classic-common/22x22/mimetypes]
+[../rospo-classic-common/22x22/mimetypes]
 Context=MimeTypes
 Size=22
 Type=Fixed
 
-[../../rospo-classic-common/32x32/apps]
+[../rospo-classic-common/32x32/apps]
 Context=Applications
 Size=32
 Type=Fixed
 
-[../../rospo-classic-common/32x32/categories]
+[../rospo-classic-common/32x32/categories]
 Context=Categories
 Size=32
 Type=Fixed
 
-[../../rospo-classic-common/32x32/devices]
+[../rospo-classic-common/32x32/devices]
 Context=Devices
 Size=32
 MinSize=22
 MaxSize=32
 Type=Scalable
 
-[../../rospo-classic-common/32x32/emblems]
+[../rospo-classic-common/32x32/emblems]
 Context=Emblems
 Size=32
 Type=Fixed
 
-[../../rospo-classic-common/32x32/mimetypes]
+[../rospo-classic-common/32x32/mimetypes]
 Context=MimeTypes
 Size=32
 Type=Fixed
 
-[../../rospo-classic-common/32x32/places]
+[../rospo-classic-common/32x32/places]
 Context=Places
 Size=32
 Type=Fixed
 
-[../../rospo-classic-common/32x32/start]
+[../rospo-classic-common/32x32/start]
 Context=Start
 Size=32
 Type=Fixed
 
-[../../rospo-classic-common/32x32/status]
+[../rospo-classic-common/32x32/status]
 Context=Status
 Size=32
 Type=Fixed
 
-[../../rospo-classic-common/48x48/apps]
+[../rospo-classic-common/48x48/apps]
 Context=Applications
 Size=48
 Type=Fixed
 
-[../../rospo-classic-common/48x48/categories]
+[../rospo-classic-common/48x48/categories]
 Context=Categories
 Size=48
 Type=Fixed
 
-[../../rospo-classic-common/48x48/devices]
+[../rospo-classic-common/48x48/devices]
 Context=Devices
 Size=48
 Type=Fixed
 
-[../../rospo-classic-common/48x48/emblems]
+[../rospo-classic-common/48x48/emblems]
 Context=Emblems
 Size=48
 Type=Fixed
 
-[../../rospo-classic-common/48x48/mimetypes]
+[../rospo-classic-common/48x48/mimetypes]
 Context=MimeTypes
 Size=48
 Type=Fixed
 
-[../../rospo-classic-common/48x48/places]
+[../rospo-classic-common/48x48/places]
 Context=Places
 Size=48
 Type=Fixed
 
-[../../rospo-classic-common/48x48/status]
+[../rospo-classic-common/48x48/status]
 Context=Status
 Size=48
 MinSize=48
 MaxSize=512
 Type=Scalable
 
-[../../rospo-classic-common/64x64/apps]
+[../rospo-classic-common/64x64/apps]
 Context=Applications
 Size=64
 MinSize=64
 MaxSize=512
 Type=Scalable
 
-[../../rospo-classic-common/64x64/categories]
+[../rospo-classic-common/64x64/categories]
 Context=Categories
 Size=64
 MinSize=64
 MaxSize=512
 Type=Scalable
 
-[../../rospo-classic-common/64x64/devices]
+[../rospo-classic-common/64x64/devices]
 Context=Devices
 Size=64
 MinSize=64
 MaxSize=512
 Type=Scalable
 
-[../../rospo-classic-common/64x64/emblems]
+[../rospo-classic-common/64x64/emblems]
 Context=Emblems
 Size=64
 MinSize=64
 MaxSize=512
 Type=Scalable
 
-[../../rospo-classic-common/64x64/mimetypes]
+[../rospo-classic-common/64x64/mimetypes]
 Context=MimeTypes
 Size=64
 MinSize=64
 MaxSize=512
 Type=Scalable
 
-[../../rospo-classic-common/64x64/places]
+[../rospo-classic-common/64x64/places]
 Context=Places
 Size=64
 MinSize=64
 MaxSize=512
 Type=Scalable
 
-[../../rospo-classic-common/64x64/status]
+[../rospo-classic-common/64x64/status]
 Context=Status
 Size=64
 MinSize=64
 MaxSize=512
 Type=Scalable
 
-[../../rospo-classic-common/symbolic/actions]
+[../rospo-classic-common/symbolic/actions]
 Context=Actions
 Size=16
 MinSize=16
 MaxSize=512
 Type=Scalable
 
-[../../rospo-classic-common/symbolic/apps]
+[../rospo-classic-common/symbolic/apps]
 Context=Applications
 Size=16
 MinSize=16
 MaxSize=512
 Type=Scalable
 
-[../../rospo-classic-common/symbolic/categories]
+[../rospo-classic-common/symbolic/categories]
 Context=Categories
 Size=16
 MinSize=16
 MaxSize=512
 Type=Scalable
 
-[../../rospo-classic-common/symbolic/devices]
+[../rospo-classic-common/symbolic/devices]
 Context=Devices
 Size=16
 MinSize=16
 MaxSize=512
 Type=Scalable
 
-[../../rospo-classic-common/symbolic/emblems]
+[../rospo-classic-common/symbolic/emblems]
 Context=Emblems
 Size=16
 MinSize=16
 MaxSize=512
 Type=Scalable
 
-[../../rospo-classic-common/symbolic/emotes]
+[../rospo-classic-common/symbolic/emotes]
 Context=Emotes
 Size=16
 MinSize=16
 MaxSize=512
 Type=Scalable
 
-[../../rospo-classic-common/symbolic/mimetypes]
+[../rospo-classic-common/symbolic/mimetypes]
 Context=MimeTypes
 Size=16
 MinSize=16
 MaxSize=512
 Type=Scalable
 
-[../../rospo-classic-common/symbolic/places]
+[../rospo-classic-common/symbolic/places]
 Context=Places
 Size=16
 MinSize=16
 MaxSize=512
 Type=Scalable
 
-[../../rospo-classic-common/symbolic/status]
+[../rospo-classic-common/symbolic/status]
 Context=Status
 Size=16
 MinSize=16
 MaxSize=512
 Type=Scalable
 
-[../../rospo-dark-common/22x22/actions]
+[../rospo-dark-common/22x22/actions]
 Context=Actions
 Size=22
 Type=Fixed
 
-[../../rospo-dark-common/22x22/panel]
+[../rospo-dark-common/22x22/panel]
 Context=Status
 Size=22
 Type=Fixed
 
-[../../rospo-common/22x22/actions]
+[../rospo-common/22x22/actions]
 Context=Actions
 Size=22
 Type=Fixed
 
-[../../rospo-common/22x22/panel]
+[../rospo-common/22x22/panel]
 Context=Status
 Size=22
 Type=Fixed
 
-[../../rospo-common/32x32/apps]
+[../rospo-common/32x32/apps]
 Context=Applications
 Size=32
 Type=Fixed
 
-[../../rospo-common/32x32/devices]
+[../rospo-common/32x32/devices]
 Context=Devices
 Size=32
 MinSize=22
 MaxSize=32
 Type=Scalable
 
-[../../rospo-common/32x32/mimetypes]
+[../rospo-common/32x32/mimetypes]
 Context=MimeTypes
 Size=32
 Type=Fixed
 
-[../../rospo-common/32x32/status]
+[../rospo-common/32x32/status]
 Context=Status
 Size=32
 Type=Fixed

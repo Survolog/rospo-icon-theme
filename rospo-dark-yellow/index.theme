@@ -21,7 +21,7 @@ DialogSizes=16,22,32,48,64,128,256
 FollowsColorScheme=true
 
 # Directory list
-Directories=16x16/actions,16x16/status,22x22/actions,22x22/clementine,22x22/device,22x22/emotes,22x22/panel,22x22/places,22x22/status,32x32/start,32x32/status,256x256/applets,../../rospo-yellow-common/16x16/actions,../../rospo-yellow-common/16x16/status,../../rospo-yellow-common/22x22/actions,../../rospo-yellow-common/22x22/emblems,../../rospo-yellow-common/22x22/panel,../../rospo-yellow-common/22x22/places,../../rospo-yellow-common/22x22/status,../../rospo-yellow-common/32x32/apps,../../rospo-yellow-common/32x32/devices,../../rospo-yellow-common/32x32/mimetypes,../../rospo-yellow-common/32x32/places,../../rospo-yellow-common/32x32/start,../../rospo-yellow-common/32x32/status,../../rospo-yellow-common/256x256/applets,../../rospo-dark-common/22x22/actions,../../rospo-dark-common/22x22/panel,../../rospo-common/22x22/actions,../../rospo-common/22x22/animations,../../rospo-common/32x32/apps,../../rospo-common/32x32/devices,../../rospo-common/32x32/mimetypes,../../rospo-common/32x32/status
+Directories=16x16/actions,16x16/status,22x22/actions,22x22/clementine,22x22/device,22x22/emotes,22x22/panel,22x22/places,22x22/status,32x32/start,32x32/status,256x256/applets,../rospo-yellow-common/16x16/actions,../rospo-yellow-common/16x16/status,../rospo-yellow-common/22x22/actions,../rospo-yellow-common/22x22/emblems,../rospo-yellow-common/22x22/panel,../rospo-yellow-common/22x22/places,../rospo-yellow-common/22x22/status,../rospo-yellow-common/32x32/apps,../rospo-yellow-common/32x32/devices,../rospo-yellow-common/32x32/mimetypes,../rospo-yellow-common/32x32/places,../rospo-yellow-common/32x32/start,../rospo-yellow-common/32x32/status,../rospo-yellow-common/256x256/applets,../rospo-dark-common/22x22/actions,../rospo-dark-common/22x22/panel,../rospo-common/22x22/actions,../rospo-common/22x22/animations,../rospo-common/32x32/apps,../rospo-common/32x32/devices,../rospo-common/32x32/mimetypes,../rospo-common/32x32/status
 
 [16x16/actions]
 Context=Actions
@@ -72,6 +72,20 @@ Context=Status
 Size=22
 Type=Fixed
 
+[32x32/start]
+Context=Start
+Size=32
+MinSize=16
+MaxSize=512
+Type=Scalable
+
+[32x32/status]
+Context=Status
+Size=32
+MinSize=16
+MaxSize=512
+Type=Scalable
+
 [256x256/applets]
 Size=256
 Context=Applications
@@ -79,118 +93,122 @@ MinSize=48
 MaxSize=512
 Type=Scalable
 
-[../../rospo-yellow-common/16x16/actions]
+[../rospo-yellow-common/16x16/actions]
 Context=Actions
 Size=16
 Type=Fixed
 
-[../../rospo-yellow-common/16x16/status]
+[../rospo-yellow-common/16x16/status]
 Context=Actions
 Size=16
 Type=Fixed
 
-[../../rospo-yellow-common/22x22/actions]
+[../rospo-yellow-common/22x22/actions]
 Context=Actions
 Size=22
 Type=Fixed
 
-[../../rospo-yellow-common/22x22/emblems]
+[../rospo-yellow-common/22x22/emblems]
 Context=Emblems
 Size=22
 Type=Fixed
 
-[../../rospo-yellow-common/22x22/panel]
+[../rospo-yellow-common/22x22/panel]
 Context=Status
 Size=22
 Type=Fixed
 
-[../../rospo-yellow-common/22x22/places]
+[../rospo-yellow-common/22x22/places]
 Context=Places
 Size=22
 Type=Fixed
 
-[../../rospo-yellow-common/22x22/status]
+[../rospo-yellow-common/22x22/status]
 Context=Status
 Size=22
 Type=Fixed
 
-[../../rospo-yellow-common/32x32/apps]
+[../rospo-yellow-common/32x32/apps]
 Context=Applications
 Size=32
-Type=Fixed
+MinSize=16
+MaxSize=512
+Type=Scalable
 
-[../../rospo-yellow-common/32x32/devices]
+[../rospo-yellow-common/32x32/devices]
 Context=Devices
 Size=32
 MinSize=22
 MaxSize=32
 Type=Scalable
 
-[../../rospo-yellow-common/32x32/mimetypes]
+[../rospo-yellow-common/32x32/mimetypes]
 Context=MimeTypes
 Size=32
 Type=Fixed
 
-[../../rospo-yellow-common/32x32/places]
+[../rospo-yellow-common/32x32/places]
 Context=Places
 Size=32
 Type=Fixed
 
-[../../rospo-yellow-common/32x32/start]
+[../rospo-yellow-common/32x32/start]
 Context=Start
 Size=32
 Type=Fixed
 
-[../../rospo-yellow-common/32x32/status]
+[../rospo-yellow-common/32x32/status]
 Context=Status
 Size=32
 Type=Fixed
 
-[../../rospo-yellow-common/256x256/applets]
+[../rospo-yellow-common/256x256/applets]
 Size=256
 Context=Applications
 MinSize=48
 MaxSize=512
 Type=Scalable
 
-[../../rospo-dark-common/22x22/actions]
+[../rospo-dark-common/22x22/actions]
 Context=Actions
 Size=22
 Type=Fixed
 
-[../../rospo-dark-common/22x22/panel]
+[../rospo-dark-common/22x22/panel]
 Context=Status
 Size=22
 Type=Fixed
 
-[../../rospo-common/22x22/actions]
+[../rospo-common/22x22/actions]
 Context=Actions
 Size=22
 Type=Fixed
 
-[../../rospo-common/22x22/panel]
+[../rospo-common/22x22/panel]
 Context=Status
 Size=22
 Type=Fixed
 
-[../../rospo-common/32x32/apps]
+[../rospo-common/32x32/apps]
 Context=Applications
 Size=32
-Type=Fixed
+MinSize=16
+MaxSize=512
+Type=Scalable
 
-[../../rospo-common/32x32/devices]
+[../rospo-common/32x32/devices]
 Context=Devices
 Size=32
 MinSize=22
 MaxSize=32
 Type=Scalable
 
-[../../rospo-common/32x32/mimetypes]
+[../rospo-common/32x32/mimetypes]
 Context=MimeTypes
 Size=32
 Type=Fixed
 
-[../../rospo-common/32x32/status]
+[../rospo-common/32x32/status]
 Context=Status
 Size=32
 Type=Fixed
