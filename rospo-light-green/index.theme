@@ -107,11 +107,6 @@ Context=Actions
 Size=22
 Type=Fixed
 
-[../rospo-green-common/22x22/animations]
-Context=Animations
-Size=22
-Type=Fixed
-
 [../rospo-green-common/22x22/apps]
 Context=Applications
 Size=22
@@ -328,8 +323,8 @@ Context=Actions
 Size=22
 Type=Fixed
 
-[../rospo-common/22x22/panel]
-Context=Status
+[../rospo-common/22x22/animations]
+Context=Animations
 Size=22
 Type=Fixed
 

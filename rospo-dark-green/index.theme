@@ -70,13 +70,6 @@ Context=Start
 Size=32
 Type=Fixed
 
-[48x48/status]
-Context=Status
-Size=48
-MinSize=48
-MaxSize=512
-Type=Scalable
-
 [64x64/start]
 Context=Start
 Size=32
@@ -111,11 +104,6 @@ Type=Fixed
 
 [../rospo-green-common/22x22/actions]
 Context=Actions
-Size=22
-Type=Fixed
-
-[../rospo-green-common/22x22/animations]
-Context=Animations
 Size=22
 Type=Fixed
 
@@ -340,8 +328,8 @@ Context=Actions
 Size=22
 Type=Fixed
 
-[../rospo-common/22x22/panel]
-Context=Status
+[../rospo-common/22x22/animations]
+Context=Animations
 Size=22
 Type=Fixed
 

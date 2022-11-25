@@ -1,8 +1,9 @@
 rospo-icon-theme
 ===============
 
-ROSPO icons version 2.0.9
-Based on the wonderful [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) theme.
+ROSPO icons
+
+Based on the wonderful [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) theme (2017).
 
 ## Features
 
@@ -14,12 +15,3 @@ Based on the wonderful [Papirus](https://github.com/PapirusDevelopmentTeam/papir
 ## Installation
 
 `# git clone https://github.com/Survolog/rospo-icon-theme.git /usr/share/icons/`
-
-## Community
-
-* ROSPO Design Studio
-https://vk.com/rospodesign
-* ROSPO
-https://vk.com/ro_spo
-* ROSPO Newbie Mainteiners Of Rosa Linux
-https://vk.com/rpmbuild
